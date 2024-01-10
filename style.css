@@ -14,7 +14,89 @@ body{
     /* background-size: cover; */
     
 }
+/* .nav_bar{
+    background-color: #8000ff;
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    justify-content: space-between;
+    display: inline-block;
+    width: 100%;
+} */
+nav{
+    background-color: #8000ff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2px;
+    margin-bottom: 60px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 2px;
 
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    /* text-align: center; */
+}
+nav:hover{
+    background-color: black;
+    transition: 2s;
+    cursor: pointer;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+    /* font-size: 15px; */
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+button{
+    border-radius: 10px;
+    width: 100px;
+    background-color: #fff;
+    color: #8000ff;
+    font-size: 20;
+    font-weight: light;
+    text-decoration: none;
+}
+button:hover{
+    scale: 1.4;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 30px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+    color: #fff;
+    font-weight: bold;
+    border: solid white 2px;
+    background: linear-gradient( 45deg, #3b096d, #8000ff, #3b096d);
+    /* background: to; */
+}
+nav ul li:hover{
+    background: linear-gradient( 180deg, #3b096d, #8000ff, #3b096d);
+    color: #fff;
+    border: solid 2px #fff;
+    font-weight: bold;
+    text-shadow:  0 0 50px rgba(0, 0, 0, 0.9);
+    /* border-radius: 20px; */
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transition: 0.6s;
+    cursor: pointer;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+    /* border-bottom: #fff solid 5px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 .slide{
     height: 100%;
     width: 200px;
@@ -46,7 +128,7 @@ ul li a{
 }
 ul li:hover a {
     color: #fff;
-    background-color: #8000ff;
+    background: linear-gradient( 45deg, #3b096d, #8000ff, #3b096d);
 }
 ul li a i{
     width: 40px;
